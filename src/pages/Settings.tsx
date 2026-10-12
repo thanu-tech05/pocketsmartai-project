@@ -57,7 +57,9 @@ export function Settings() {
     .slice(0, 2)
     .join('')
     .toUpperCase()
-  const memberSince = formatDate(new Date(state.seededAt).toISOString().slice(0, 10))
+  const memberSince = state.seededAt
+    ? formatDate(new Date(state.seededAt).toISOString().slice(0, 10))
+    : 'Recently'
   const dirty =
     name.trim() !== state.profile.name || email.trim() !== state.profile.email
 
