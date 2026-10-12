@@ -15,23 +15,12 @@ recommendations** and a **Budget Health Score**.
 
 ## Run it (easiest way)
 
-Double-click **`run.bat`**. It installs dependencies the first time, then starts the app and
-opens your browser at `http://localhost:5173`.
+opens your browser at `[http://localhost:5173](https://thanu-tech05.github.io/pocketsmartai-project/)`.
 
-### Or manually
 
-```bash
-npm install
-npm run dev
-```
 
-## Other commands
 
-```bash
-npm run build      # production build into dist/
-npm run preview    # preview the production build
-npm run typecheck  # TypeScript checks (strict)
-```
+
 
 ## Features
 
@@ -59,10 +48,3 @@ npm run typecheck  # TypeScript checks (strict)
 - `docs/DEMO_SCRIPT.md` — guided demonstration script
 - `docs/SUBMISSION_GUIDE.md` — how to run, build and submit
 
-## Notes
-
-- On first launch the app is pre-loaded with realistic Indian demo data so nothing is empty.
-  Use **Settings → Reset Demo Data** anytime.
-- Everything recalculates automatically: add or edit a transaction and the dashboard, charts,
-  budgets, health score, insights and recommendations all update.
-- Recommendations are general, rule-based guidance and are **not** professional financial advice.
